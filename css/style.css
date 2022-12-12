@@ -1,3 +1,6 @@
+body{
+    background-color: black;
+}
 /* HEADER */
 header{
     width:100vw;
@@ -27,9 +30,7 @@ header{
     transform: rotate(50deg);
 }
 /* MAIN */
-main{
-    background-color: black;
-}
+
 .users-row{
     display:flex;
     gap:0.5rem;
@@ -53,3 +54,39 @@ main{
     padding:0.3rem;
 }
 /* FOOTER */
+footer{
+    background-color: rgb(48, 48, 48);
+    margin-top:1.2rem;
+}
+.footer-icons{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-icons i{
+    color:white;
+    font-size: 1.8rem;
+    padding: 0.9rem;
+}
+
+.footer-icons .fa-angle-right{
+    font-size: 0.7rem;
+    transform: rotate(-90deg);
+}
+
+.right-side{
+    color:red;
+    background-color: rgb(86, 86, 86);
+    padding:2rem 1rem;
+}
+#green{
+    color:rgb(5, 193, 5);
+}
+.footer-text-icons>span{
+    color:white;
+    font-family: sans-serif;
+    font-size:0.8rem;
+}
+
+
+
