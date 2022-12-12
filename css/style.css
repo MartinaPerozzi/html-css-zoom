@@ -26,3 +26,30 @@ header{
 .fa-arrows-up-down-left-right{
     transform: rotate(50deg);
 }
+/* MAIN */
+main{
+    background-color: black;
+}
+.users-row{
+    display:flex;
+    gap:0.5rem;
+    padding:1rem 4rem 0rem;
+}
+.user-img{
+    position:relative;
+}
+.main-icons{
+    position:absolute;
+    bottom:0.2rem;
+}
+.user-img div{
+    color:white;
+    background-color: rgba(97, 95, 95, 0.8);
+    padding:0.2rem 0.3rem 0rem 0.3rem;
+    font-family: sans-serif;
+    font-size: 0.9rem;
+}
+.main-icons>i{
+    padding:0.3rem;
+}
+/* FOOTER */
